@@ -14,7 +14,7 @@ body
     justify-content: center;
 }
 
-.bnt 
+.btn 
 {
     width: 200px;
     height: 60px;
@@ -28,7 +28,7 @@ body
     position: relative;
 }
 
-.btn::before, .bnt::after 
+.btn::before, .btn::after 
 {
     content: "";
     position: absolute;
@@ -43,7 +43,7 @@ body
     top: -4px;
     left: 10%;
 }
-.bnt::after
+.btn::after
 {
     bottom: -4px;
     right: 10%;
